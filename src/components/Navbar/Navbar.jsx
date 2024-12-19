@@ -1,10 +1,19 @@
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { FaRegHeart } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+    const links = <>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><a>Statistics</a></li>
+        <li><NavLink to="dashboard">Dashboard</NavLink></li>
+
+    </>
+
     return (
         <div>
-            <div className="navbar bg-[#9538E2] w-11/12 mx-auto mt-3 rounded-xl">
+            <div className="navbar bg-[#9538E2] max-w-screen-xl mx-auto mt-3 rounded-t-xl">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,18 +33,14 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Statistics</a></li>
-                            <li><a>Dashboard</a></li>
+                            {links}
                         </ul>
                     </div>
                     <a className="text-xl font-bold text-white">Gadget Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white font-medium text-base">
-                        <li><a>Home</a></li>
-                        <li><a>Statistics</a></li>
-                        <li><a>Dashboard</a></li>
+                       {links}
                     </ul>
                 </div>
                 <div className="navbar-end gap-2">

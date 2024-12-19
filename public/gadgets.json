@@ -1,0 +1,112 @@
+[
+    {
+        "product_id": "GAD001",
+        "product_title": "Samsung S24",
+        "product_image": "https://i.ibb.co.com/tP6ZmwP/Samsung-Galaxy-S24-Onyx-Black-6.jpg",
+        "category": "Smartphones",
+        "price": 699.99,
+        "description": "A sleek, high-performance smartphone with a stunning display and advanced features.",
+        "Specification": "6.1-inch display, 128GB storage, 12MP camera",
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "GAD002",
+        "product_title": "Wireless Headphones Pro",
+        "product_image": "https://i.ibb.co.com/qWm6Wsf/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg",
+        "category": "Accessories",
+        "price": 199.99,
+        "description": "Noise-canceling wireless headphones with superior sound quality and comfort.",
+        "Specification": "Bluetooth 5.0, 30 hours battery life",
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "GAD003",
+        "product_title": "Smartwatch Z5",
+        "product_image": "https://i.ibb.co.com/HGgXXm2/still-life-tech-device.jpg",
+        "category": "Smartwatches",
+        "price": 299.99,
+        "description": "A stylish smartwatch with fitness tracking and notification features.",
+        "Specification": "1.5-inch display, heart rate monitor, GPS",
+        "availability": false,
+        "rating": 4.2
+    },
+    {
+        "product_id": "GAD004",
+        "product_title": "MacBook air M4",
+        "product_image": "https://i.ibb.co.com/WzscS7W/laptop-with-blank-black-screen-white-table.jpg",
+        "category": "MacBook",
+        "price": 999.99,
+        "description": "High-performance gaming laptop with top-notch graphics and speed.",
+        "Specification": "14-inch display, Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX 3070",
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "GAD005",
+        "product_title": "Bluetooth Speaker Mini",
+        "product_image": "https://i.ibb.co.com/9wtx0Mh/close-up-seniors-with-tablet-speaker.jpg",
+        "category": "Accessories",
+        "price": 149.99,
+        "description": "Compact Bluetooth speaker with impressive sound quality and portability.",
+        "Specification": "10W power, 8 hours battery life, waterproof",
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "GAD006",
+        "product_title": "Gaming Laptop GTX",
+        "product_image": "https://i.ibb.co.com/WzscS7W/laptop-with-blank-black-screen-white-table.jpg",
+        "category": "Laptops",
+        "price": 1499.99,
+        "description": "High-performance gaming laptop with top-notch graphics and speed.",
+        "Specification": "15.6-inch display, Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX 3070",
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "GAD007",
+        "product_title": "Fitness Tracker V2",
+        "product_image": "https://i.ibb.co.com/HGgXXm2/still-life-tech-device.jpg",
+        "category": "Smartwatches",
+        "price": 79.99,
+        "description": "Advanced fitness tracker with heart rate monitor and sleep analysis.",
+        "Specification": "OLED display, 24/7 heart rate tracking, sleep monitor",
+        "availability": false,
+        "rating": 4.4
+    },
+    {
+        "product_id": "GAD008",
+        "product_title": "Iphone 16",
+        "product_image": "https://i.ibb.co.com/x7cYwZW/elegant-smartphone-composition.jpg",
+        "category": "Iphone",
+        "price": 829.99,
+        "description": "A sleek, high-performance smartphone with a stunning display and advanced features.",
+        "Specification": "6-inch display, 128GB storage, 12MP camera",
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "GAD009",
+        "product_title": "Nothing Phone 2a",
+        "product_image": "https://i.ibb.co.com/MpmTbjX/nothing-phone-2a.jpg",
+        "category": "Smartphones",
+        "price": 399.99,
+        "description": "A sleek, high-performance smartphone with a stunning display and advanced features.",
+        "Specification": "6.5-inch display, 128GB storage, 48MP camera",
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "GAD010",
+        "product_title": "Sony Xperia 1 Mark V",
+        "product_image": "https://i.ibb.co.com/H2qvZcy/Sony-Xperia-1-V-rear-cameras-closeup-rgb-lighting-background-scaled.jpg",
+        "category": "Smartphones",
+        "price": 1099.99,
+        "description": "A sleek, high-performance smartphone with a stunning display and advanced features.",
+        "Specification": "6.5-inch display, 128GB storage, 48MP camera",
+        "availability": false,
+        "rating": 4.3
+    }
+]
