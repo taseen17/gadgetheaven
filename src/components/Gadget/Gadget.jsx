@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Gadget = ({ gadget }) => {
     const {product_id, product_title, product_image, category, price, description, Specification, availability, rating} = gadget
@@ -14,7 +15,7 @@ const Gadget = ({ gadget }) => {
                     <h2 className="card-title">{product_title}</h2>
                     <p>Price: {price}$ </p>
                     <div className="card-actions justify-start">
-                        <button className="btn text-[#9538E2] font-semibold bg-white">View Details</button>
+                        <button className="btn text-[#9538E2] font-semibold bg-white"><Link to={`/gadgets/${product_id}`}>View Details</Link></button>
                     </div>
                 </div>
             </div>

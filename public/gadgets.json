@@ -6,7 +6,7 @@
         "category": "Smartphones",
         "price": 699.99,
         "description": "A sleek, high-performance smartphone with a stunning display and advanced features.",
-        "Specification": "6.1-inch display, 128GB storage, 12MP camera",
+        "Specification":["6.1-inch display", "128GB storage", "12MP camera"] ,
         "availability": true,
         "rating": 4.5
     },
@@ -17,7 +17,7 @@
         "category": "Accessories",
         "price": 199.99,
         "description": "Noise-canceling wireless headphones with superior sound quality and comfort.",
-        "Specification": "Bluetooth 5.0, 30 hours battery life",
+        "Specification":["Bluetooth 5.0", "30 hours battery life"],
         "availability": true,
         "rating": 4.7
     },
@@ -28,7 +28,7 @@
         "category": "Smartwatches",
         "price": 299.99,
         "description": "A stylish smartwatch with fitness tracking and notification features.",
-        "Specification": "1.5-inch display, heart rate monitor, GPS",
+        "Specification":["1.5-inch display", "heart rate monitor", "GPS"] ,
         "availability": false,
         "rating": 4.2
     },
@@ -39,7 +39,7 @@
         "category": "MacBook",
         "price": 999.99,
         "description": "High-performance gaming laptop with top-notch graphics and speed.",
-        "Specification": "14-inch display, Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX 3070",
+        "Specification": ["14-inch display", "Intel i7", "16GB RAM", "1TB SSD", "NVIDIA GTX 3070"],
         "availability": true,
         "rating": 4.8
     },
@@ -50,7 +50,7 @@
         "category": "Accessories",
         "price": 149.99,
         "description": "Compact Bluetooth speaker with impressive sound quality and portability.",
-        "Specification": "10W power, 8 hours battery life, waterproof",
+        "Specification":["10W power", "8 hours battery life", "waterproof"] ,
         "availability": true,
         "rating": 4.3
     },
@@ -61,7 +61,7 @@
         "category": "Laptops",
         "price": 1499.99,
         "description": "High-performance gaming laptop with top-notch graphics and speed.",
-        "Specification": "15.6-inch display, Intel i7, 16GB RAM, 1TB SSD, NVIDIA GTX 3070",
+        "Specification":["15.6-inch display", "Intel i7", "16GB RAM", "1TB SSD", "NVIDIA GTX 3070"] ,
         "availability": true,
         "rating": 4.6
     },
@@ -72,7 +72,7 @@
         "category": "Smartwatches",
         "price": 79.99,
         "description": "Advanced fitness tracker with heart rate monitor and sleep analysis.",
-        "Specification": "OLED display, 24/7 heart rate tracking, sleep monitor",
+        "Specification":["OLED display", "24/7 heart rate tracking", "sleep monitor"] ,
         "availability": false,
         "rating": 4.4
     },
@@ -83,7 +83,7 @@
         "category": "Iphone",
         "price": 829.99,
         "description": "A sleek, high-performance smartphone with a stunning display and advanced features.",
-        "Specification": "6-inch display, 128GB storage, 12MP camera",
+        "Specification":["6-inch display", "128GB storage", "12MP camera"] ,
         "availability": true,
         "rating": 4.5
     },
@@ -94,7 +94,7 @@
         "category": "Smartphones",
         "price": 399.99,
         "description": "A sleek, high-performance smartphone with a stunning display and advanced features.",
-        "Specification": "6.5-inch display, 128GB storage, 48MP camera",
+        "Specification":["6.5-inch display", "128GB storage", "48MP camera"] ,
         "availability": true,
         "rating": 4.7
     },
@@ -105,7 +105,7 @@
         "category": "Smartphones",
         "price": 1099.99,
         "description": "A sleek, high-performance smartphone with a stunning display and advanced features.",
-        "Specification": "6.5-inch display, 128GB storage, 48MP camera",
+        "Specification":["6.5-inch display", "128GB storage", "48MP camera"] ,
         "availability": false,
         "rating": 4.3
     }
