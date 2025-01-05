@@ -44,8 +44,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-2">
-                    <a className="btn btn-circle text-xl"><HiOutlineShoppingCart /></a>
-                    <a className="btn btn-circle text-xl"><FaRegHeart /></a>
+                    <NavLink to="dashboard/cart"><button className="btn btn-circle text-xl"><HiOutlineShoppingCart /></button></NavLink>   
+                    <NavLink to="dashboard/wishlist"><button className="btn btn-circle text-xl"><FaRegHeart /></button></NavLink>   
                 </div>
             </div>
 
