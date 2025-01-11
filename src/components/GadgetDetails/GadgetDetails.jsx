@@ -2,12 +2,14 @@ import React, { useContext } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { FaRegHeart } from "react-icons/fa6";
-import { CartContext } from '../Root/Root';
+import { CartContext, DisableContext, HandleWishlistContext } from '../Root/Root';
 
 
 const GadgetDetails = () => {
 
     const handleAddToCart = useContext(CartContext)
+    const handleAddToWishlist = useContext(HandleWishlistContext)
+    const [isDisabled, setIsDisabled] = useContext(DisableContext)
 
     const { product_id } = useParams()
 
@@ -54,7 +56,7 @@ const GadgetDetails = () => {
                         <p><span className='font-bold'>Rating:</span> {rating}</p>
                        
                         <button onClick={() => handleAddToCart(gadget)} className="btn btn-primary bg-[#9538E2] text-white mr-3">Add To Cart <HiOutlineShoppingCart /></button>
-                        <a className="btn btn-circle text-xl"><FaRegHeart /></a>
+                        <button disabled={isDisabled} onClick={() => handleAddToWishlist(gadget)} className='btn btn-circle text-xl'><FaRegHeart /></button>
                     </div>
                 </div>
             </div>

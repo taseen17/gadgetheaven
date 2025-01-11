@@ -20,6 +20,10 @@ import MacBook from './components/MacBook/MacBook.jsx';
 import Iphone from './components/Iphone/Iphone.jsx';
 import Cart from './components/Cart/Cart.jsx';
 import Wishlist from './components/Wishlist/Wishlist.jsx';
+import Pcb from './components/PCB/Pcb.jsx';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const router = createBrowserRouter([
   {
@@ -84,6 +88,10 @@ const router = createBrowserRouter([
             element: <Wishlist></Wishlist>,
           },
         ]
+      },
+      {
+        path: "pcb",
+        element: <Pcb></Pcb>
       }
     ]
   },
@@ -92,5 +100,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <ToastContainer />
   </StrictMode>,
 )

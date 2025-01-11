@@ -1,7 +1,7 @@
 import React from 'react';
 import { RxCrossCircled } from "react-icons/rx";
 
-const CartContent = ({ gadget }) => {
+const WishlistContent = ({gadget}) => {
     return (
         <div className='max-w-[1050px] mx-auto mt-9 p-5 bg-white rounded-xl shadow-lg flex justify-between'>
             <img className='w-52 rounded-lg' src={gadget.product_image} alt="" />
@@ -18,4 +18,4 @@ const CartContent = ({ gadget }) => {
     );
 };
 
-export default CartContent;
+export default WishlistContent;

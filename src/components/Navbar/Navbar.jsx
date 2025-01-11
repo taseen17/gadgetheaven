@@ -1,19 +1,22 @@
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { FaRegHeart } from "react-icons/fa6";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
 
+    const location = useLocation()
+    console.log(location)
+
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><a>Statistics</a></li>
         <li><NavLink to="dashboard">Dashboard</NavLink></li>
+        <li><NavLink to="pcb">Pc Builder</NavLink></li>
 
     </>
 
     return (
         <div>
-            <div className="navbar bg-[#9538E2] max-w-screen-xl mx-auto mt-3 rounded-t-xl">
+            <div className={location.pathname === "/" ? "navbar bg-[#9538E2] max-w-screen-xl mx-auto mt-3 rounded-t-xl" : "navbar bg-white max-w-screen-xl mx-auto mt-3 rounded-t-xl"}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,10 +39,10 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="text-xl font-bold text-white">Gadget Heaven</a>
+                    <a className={location.pathname === "/" ? "text-xl font-bold text-white" :"text-xl font-bold text-black" }>Gadget Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 text-white font-medium text-base">
+                    <ul className={location.pathname === "/" ? "menu menu-horizontal px-1 text-white font-medium text-base" : "menu menu-horizontal px-1 text-black font-medium text-base"}>
                        {links}
                     </ul>
                 </div>
