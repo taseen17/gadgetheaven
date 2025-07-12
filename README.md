@@ -1,4 +1,4 @@
-Live Website link: https://8noassignment.netlify.app/
+Live Website link: https://thegadgetheaven.netlify.app/
 Requirement PDF: https://github.com/ProgrammingHero1/B10-A8-gadget-heaven?tab=readme-ov-file#follow-requerment-pdf
 
 React fundamental concepts that are used in this project: 
